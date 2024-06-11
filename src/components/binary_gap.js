@@ -6,7 +6,7 @@ export const binary_gap = (A = 9) => {
   let m = 0
   let c = 0
   for (const a of v) {
-    if (a == 1) {
+    if (a === 1) {
       m = Math.max(m, c)
       c = 0
       f = true

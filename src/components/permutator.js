@@ -20,4 +20,4 @@ export const permutator = inputArr => {
   return result
 }
 
-console.log(permutator(['c', 'a', 't']))
+// console.log(permutator(['c', 'a', 't']))
